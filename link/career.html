@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cay Bağı 145</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <style>
+    .navbar-toggler {
+      border: none;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+      outline: none;
+      box-shadow: none;
+      background: transparent;
+    }
+
+    .navbar-toggler span.menu-text {
+      margin-left: 30px;
+      font-weight: bold;
+      color: #484545; 
+      font-size: 15px;
+    }
+
+    .navbar-toggler span.custom-icon {
+      font-size: 30px;
+      color: #484545;
+      margin-left: 10px;
+    }
+
+    #navbarToggleExternalContent {
+      top: 0;
+      left: 0;
+      width: 70%;
+      max-width: 320px;
+      height: 100vh;
+      background-color: #000;
+      overflow-y: auto;
+      z-index: 1050;
+    }
+
+    #navbarToggleExternalContent .p-5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      height: 100%;
+    }
+
+    #navbarToggleExternalContent ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: start;
+    }
+
+    #navbarToggleExternalContent ul li {
+      margin: 20px 0;
+    }
+
+    #navbarToggleExternalContent ul li a {
+      color: #fff;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    /* Video responsiv */
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+      min-height: 50vh;
+      margin-top: 50px;
+    }
+
+    .video-container video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    footer a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .proj-links a {
+    color: black;
+    border-bottom: 1px solid #000;
+    font-family: 'Ultima';
+    text-transform: uppercase;
+    }
+
+    .career .about-us-line {
+    width: auto;
+    margin: 10px 0;
+    }
+
+    .about-us-line {
+    width: 5vw;
+    height: 2px;
+    background: red;
+    margin-left: 1vw;
+    }
+
+      .career {
+    max-width: 900px;
+    margin: 100px auto; /* ortalanmış vəziyyətdə */
+    text-align: left;
+  }
+
+  .career-text h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .career-text p {
+    color: #000;
+    font-weight: 500;
+    line-height: 1.6; /* sətirlər arası boşluq */
+  }
+
+  .career-text a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .career-text a:hover {
+    text-decoration: underline;
+  }
+
+  .about-us-line {
+    height: 2px;
+    width: 100%;
+    background: #ff0000;
+    margin: 20px 0;
+  }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
+  <button class="navbar-toggler d-flex align-items-center collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+      <span class="menu-text">MENU</span>
+      <span class="custom-icon">☰</span>
+  </button>
+
+  <a class="navbar-brand mx-auto" href="index.html">
+      <img src="photos/145logo.svg" width="200" class="d-inline-block align-top" alt="Logo">
+  </a>
+</nav>
+
+<div class="collapse" id="navbarToggleExternalContent"
+     style="position:fixed; top:70px; left:0; width:100%; z-index:9999; background: #000;">
+  <div class="p-5">
+    <ul style="list-style:none; padding:0; margin:0;">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="#">PROJECTS</a></li>
+      <li><a href="catering.html">CATERING</a></li>
+      <li><a href="partners.html">PARTNERS</a></li>
+      <li><a href="loyaltyprogram.html">LOYALTY PROGRAM</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+      <img src="photos/145logo.svg" style="margin-top: 30px;" width="200" alt="Logo">
+    </ul>
+  </div>
+</div>
+
+<section class="career">
+  <div class="career-text">
+    <h2>Təmizlik və camaşirxana işçisi vakansiyası (Platformada iş dənizdə)</h2>
+    <p>
+      Növbəli 15 günlük iş qrafiki <br>
+      Əsas tələblər: Dənizdə (Offshore) təmizlik və camaşirxana təcrübəsi minimum 1 il <br>
+      Dənizdə (quruda) təmizlik və camaşirxana təcrübəsi minimum 1 il <br>
+      Otellərdə işləyən təcrübəli camaşırxana işçilərinə üstünlük veriləcək <br>
+      BOSİET sertifikatı İngilis dili anlayışı mütləqdir <br>
+      Maraqlanan şəxslər cv@145group.com elektron ünvanına CV göndərə və ya 055 500 01 45 nömrəsi ilə əlaqə saxlaya bilərlər <br>
+      Qeyd: vakansiyalar yalnız Azərbaycan vətəndaşları üçün nəzərdə tutulub
+    </p>
+    <div class="about-us-line"></div>
+    <a href="mailto:cv@145group.com">SEND EMAIL</a>
+  </div>
+</section>
+
+<section class="career">
+  <div class="career-text">
+    <h2>Xəmirçi vakansiyası (Platformada iş dənizdə)</h2>
+    <p>
+      Növbəli 15 günlük iş qrafiki <br>
+      Əsas tələblər: Dənizdə (Offshore) xəmirçi təcrübəsi minimum 1 il <br>
+      Dənizdə (quruda) xəmirçi təcrübəsi minimum 1 il <br>
+      BOSİET sertifikatı İngilis dili anlayışı mütləqdir <br>
+      Maraqlanan şəxslər cv@145group.com elektron ünvanına CV göndərə və ya 055 500 01 45 nömrəsi ilə əlaqə saxlaya bilərlər <br>
+      Qeyd: vakansiyalar yalnız Azərbaycan vətəndaşları üçün nəzərdə tutulub
+    </p>
+    <div class="about-us-line"></div>
+    <a href="mailto:cv@145group.com">SEND EMAIL</a>
+  </div>
+</section>
+
+<section class="career">
+  <div class="career-text">
+    <h2>Mətbəx köməkçiləri vakansiyası (Platformada iş dənizdə)</h2>
+    <p>
+      Növbəli 15 günlük iş qrafiki <br>
+      Əsas tələblər: Dənizdə (Offshore) mətbəx köməkçiləri təcrübəsi minimum 1 il <br>
+      Dənizdə (quruda) mətbəx köməkçiləri təcrübəsi minimum 1 il <br>
+      BOSİET sertifikatı İngilis dili anlayışı mütləqdir <br>
+      Maraqlanan şəxslər cv@145group.com elektron ünvanına CV göndərə və ya 055 500 01 45 nömrəsi ilə əlaqə saxlaya bilərlər <br>
+      Qeyd: vakansiyalar yalnız Azərbaycan vətəndaşları üçün nəzərdə tutulub
+    </p>
+    <div class="about-us-line"></div>
+    <a href="mailto:cv@145group.com">SEND EMAIL</a>
+  </div>
+</section>
+
+<section class="career">
+  <div class="career-text">
+    <h2>Aşpaz vakansiyası (Platformada iş dənizdə)</h2>
+    <p>
+      Növbəli 15 günlük iş qrafiki <br>
+      Əsas tələblər: Dənizdə (Offshore) aşpaz təcrübəsi minimum 3 il <br>
+      Dənizdə (quruda) aşpaz təcrübəsi minimum 1 il <br>
+      BOSİET sertifikatı İngilis dili anlayışı mütləqdir <br>
+      Ofis proqramları ilə işləyə bilmək (Excel və s.) <br>
+      Maraqlanan şəxslər cv@145group.com elektron ünvanına CV göndərə və ya 055 500 01 45 nömrəsi ilə əlaqə saxlaya bilərlər <br>
+      Qeyd: vakansiyalar yalnız Azərbaycan vətəndaşları üçün nəzərdə tutulub
+    </p>
+    <div class="about-us-line"></div>
+    <a href="mailto:cv@145group.com">SEND EMAIL</a>
+  </div>
+</section>
+
+<section class="career">
+  <div class="career-text">
+    <h2>Camp boss vakansiyası (Platformada iş dənizdə)</h2>
+    <p>
+      Növbəli 15 günlük iş qrafiki <br>
+      Əsas tələblər: Dənizdə (Offshore) camp boss və mətbəx aşpazı vəzifəsində minimum 5 il təcrübə <br>
+      BOSİET sertifikatı İngilis dili (yazışmalar apara biləcək səviyyədə) <br>
+      Ofis proqramları ilə işləyə bilmək (Excel və s.) <br>
+      Maraqlanan şəxslər cv@145group.com elektron ünvanına CV göndərə və ya 055 500 01 45 nömrəsi ilə əlaqə saxlaya bilərlər <br>
+      Qeyd: vakansiyalar yalnız Azərbaycan vətəndaşları üçün nəzərdə tutulub
+    </p>
+    <div class="about-us-line"></div>
+    <a href="mailto:cv@145group.com">SEND EMAIL</a>
+  </div>
+</section>
+
+
+<div class="container" style="margin-top: 300px;border-bottom: 2px solid #D1D1D1;margin-bottom: 30px;">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top" style="margin-top: -195px;" >
+   <div class="footer-logo" style="display: flex; justify-content: center; text-align: center;">
+    <img src="photos/145logo.svg" style="height: 100%; width: 300px; margin-bottom: 30px;" alt="">
+   </div>
+   <div class="footer-links" style="justify-content: space-between; flex-direction: column; display: flex; text-align: center;     font-family: 'Helvetica', sans-serif !important; font-size: 15px;">
+    <a href="#" style="color: #000;">PROJECTS</a>
+    <a href="catering.html" style="color: #000;">CATERING</a>
+    <a href="partners.html" style="color: #000;">PARTNERS</a>
+   </div>
+   <div class="footer-links" style="justify-content: space-between; flex-direction: column; display: flex; text-align: center;     font-family: 'Helvetica', sans-serif !important; font-size: 15px;">
+    <a href="aboutus.html" style="color: #000;">ABOUT US</a>
+    <a href="career.html" style="color: #000;">CAREER</a>
+    <a href="contact.html" style="color: #000;">CONTACT US</a>
+   </div>
+   <div class="footer-social" style="display: flex; justify-content: center; text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <a href="https://www.instagram.com/145group/">
+      <img src="photos/icon-instagram.png" style="width: 35px;" alt="">
+    </a>
+    <a href="https://www.facebook.com/group145/?locale=ru_RU">
+      <img src="photos/icon-facebook.png" style="width: 35px;" alt="">
+    </a>
+    <a href="https://www.linkedin.com/company/145-group/">
+      <img src="photos/icon-linkedin.png" style="width: 35px;" alt="">
+    </a>
+   </div>
+   <div class="footer-follow">
+    <p class="footer-text" style="display: flex; justify-content: start; text-align: center; margin-left: 10px; ">GET THE LASTES NEWS</p>
+    <div class="footer-input" style="display: flex; justify-content: start; text-align: center; margin-top: 20px; margin-left: 10px;">
+      <input type="email" placeholder="Email">
+      <button type="submit" style="margin-left: 20px;">SUBMIT</button>
+    </div>
+   </div>
+  </footer>
+</div>
+
+   <div>
+<p class="footer-copy" style="font-size: .8rem; font-family: 'Ultima'; text-transform: uppercase; color: rgba(0, 0, 0, 0.571); display: flex; text-align: center; justify-content: center;">Created BY : Mehdi Alakbarov</p>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

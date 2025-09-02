@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cay Bağı 145</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <style>
+    .navbar-toggler {
+      border: none;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+      outline: none;
+      box-shadow: none;
+      background: transparent;
+    }
+
+    .navbar-toggler span.menu-text {
+      margin-left: 30px;
+      font-weight: bold;
+      color: #484545; 
+      font-size: 15px;
+    }
+
+    .navbar-toggler span.custom-icon {
+      font-size: 30px;
+      color: #484545;
+      margin-left: 10px;
+    }
+
+    #navbarToggleExternalContent {
+      top: 0;
+      left: 0;
+      width: 70%;
+      max-width: 320px;
+      height: 100vh;
+      background-color: #000;
+      overflow-y: auto;
+      z-index: 1050;
+    }
+
+    #navbarToggleExternalContent .p-5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      height: 100%;
+    }
+
+    #navbarToggleExternalContent ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: start;
+    }
+
+    #navbarToggleExternalContent ul li {
+      margin: 20px 0;
+    }
+
+    #navbarToggleExternalContent ul li a {
+      color: #fff;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    /* Video responsiv */
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+      min-height: 50vh;
+      margin-top: 50px;
+    }
+
+    .video-container video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    footer a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .proj-links a {
+    color: black;
+    border-bottom: 1px solid #000;
+    font-family: 'Ultima';
+    text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
+  <button class="navbar-toggler d-flex align-items-center collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+      <span class="menu-text">MENU</span>
+      <span class="custom-icon">☰</span>
+  </button>
+
+  <a class="navbar-brand mx-auto" href="index.html">
+      <img src="photos/145logo.svg" width="200" class="d-inline-block align-top" alt="Logo">
+  </a>
+</nav>
+
+<div class="collapse" id="navbarToggleExternalContent"
+     style="position:fixed; top:70px; left:0; width:100%; z-index:9999; background: #000;">
+  <div class="p-5">
+    <ul style="list-style:none; padding:0; margin:0;">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="#">PROJECTS</a></li>
+      <li><a href="catering.html">CATERING</a></li>
+      <li><a href="partners.html">PARTNERS</a></li>
+      <li><a href="loyaltyprogram.html">LOYALTY PROGRAM</a></li>
+      <li><a href="career.html">CAREER</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+      <img src="photos/145logo.svg" style="margin-top: 30px;" width="200" alt="Logo">
+    </ul>
+  </div>
+</div>
+
+<div class="text-projects" style="display: grid; justify-content: center; text-align: center; margin-top: 200px; line-height: 30px;"> <h3 style="font-size: 2rem;">We are also</h3> <p style="color: black; text-align: start; margin-top: 1vw;">The "145" Group was established in 2003. The group of companies consists of 10 restaurants, including "Cay Evi", "Cay Bagi", "The Cafe", "Malacannes", "Terrace", "Balkon", "Mardacannes",<br> "Metropol", "Passage", "Green Garden", the "Sultan Inn" boutique hotel, and "Healthy Food" catering services. The history of the company's name comes from its first project "Tea House". <br> The name and origin of our group of firms came from the avenue number "145" of the first project. The core focus of restaurants is based on tea and hookah. Moreover, we have both national and <br> European cuisine. Our team is united by the goal of giving guests a magnificent taste, quality service, and maximum emotions. It is important for us that quality and tasty food is available to our <br> guests any day of the week and any time of day (the holding's restaurants are open 24 hours a day), and that rest is unforgettable.</p> </div>
+
+<div class="video-container mt-5"> <video style="width: 90vw;" autoplay muted loop controls> <source src="./videos/145video.mp4" type="video/mp4"> Sənin brauzerin videonu dəstəkləmir. </video> </div>
+
+<section class="about-us" style="justify-content: center; display: flex; margin-top: 100px; padding: 0 20px;">
+  <div class="about-us-text" style="max-width: 900px;">
+    <h1 style="font-size: 1.5rem;">In 2023</h1>
+    <h2 style="font-size: 2rem; margin-bottom: 10px;">During the year</h2>
+    <p>
+      In 2023, the “145 Group” celebrates its 20th anniversary. The first tea house, “Çay Evi 145", was launched in 2003 opposite the seaside boulevard and immediately became
+      popular among Baku residents. During the year, about 1.5 million guests visit the holding’s restaurants, and this is not surprising because all projects of the “145 Group” are
+      created with boundless love for guests and are therefore doomed to success.
+    </p>
+  </div>
+</section>
+
+<section class="about-us" style="justify-content: center; display: flex; margin-top: 100px; padding: 0 20px;">
+  <div class="about-us-text" style="max-width: 900px;">
+    <h2 style="font-size: 2rem; margin-bottom: 10px;">Loyality Program</h2>
+    <p>
+      We always think about our customers and put their interests on priority. Therefore we implement a loyalty program - “145Club Card”. What does it mean? With the 145Club card, our customers gain an opportunity to 5% cash back on their spending in the chain of our lounges&restaurants. The 145Club card connects to the mobile application, by installing the “145Group” application and after a quick registration you can start collecting bonuses. It is enough to show an identification number while paying the bill, to start getting cash back.
+    </p>
+    <div class="proj-links">
+    <a style="font-size:18px" href="https://onelink.to/mc8pgr">Register</a>
+    </div>
+  </div>
+</section>
+
+<div class="container" style="margin-top: 100px;  border-bottom: 2px solid #D1D1D1; margin-bottom: 30px;">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top" style="margin-bottom: 30px;">
+   <div class="footer-logo" style="display: flex; justify-content: center; text-align: center;">
+    <img src="photos/145logo.svg" style="height: 100%; width: 300px; margin-bottom: 30px;" alt="">
+   </div>
+   <div class="footer-links" style="justify-content: space-between; flex-direction: column; display: flex; text-align: center;     font-family: 'Helvetica', sans-serif !important; font-size: 15px;">
+    <a href="#" style="color: #000;">PROJECTS</a>
+    <a href="catering.html" style="color: #000;">CATERING</a>
+    <a href="partners.html" style="color: #000;">PARTNERS</a>
+   </div>
+   <div class="footer-links" style="justify-content: space-between; flex-direction: column; display: flex; text-align: center;     font-family: 'Helvetica', sans-serif !important; font-size: 15px;">
+    <a href="aboutus.html" style="color: #000;">ABOUT US</a>
+    <a href="career.html" style="color: #000;">CAREER</a>
+    <a href="contact.html" style="color: #000;">CONTACT US</a>
+   </div>
+   <div class="footer-social" style="display: flex; justify-content: center; text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <a href="https://www.instagram.com/145group/">
+      <img src="photos/icon-instagram.png" style="width: 35px;" alt="">
+    </a>
+    <a href="https://www.facebook.com/group145/?locale=ru_RU">
+      <img src="photos/icon-facebook.png" style="width: 35px;" alt="">
+    </a>
+    <a href="https://www.linkedin.com/company/145-group/">
+      <img src="photos/icon-linkedin.png" style="width: 35px;" alt="">
+    </a>
+   </div>
+   <div class="footer-follow">
+    <p class="footer-text" style="display: flex; justify-content: start; text-align: center; margin-left: 10px; ">GET THE LASTES NEWS</p>
+    <div class="footer-input" style="display: flex; justify-content: start; text-align: center; margin-top: 20px; margin-left: 10px;">
+      <input type="email" placeholder="Email">
+      <button type="submit" style="margin-left: 20px;">SUBMIT</button>
+    </div>
+   </div>
+  </footer>
+</div>
+
+   <div>
+<p class="footer-copy" style="font-size: .8rem; font-family: 'Ultima'; text-transform: uppercase; color: rgba(0, 0, 0, 0.571); display: flex; text-align: center; justify-content: center;">Created BY : Mehdi Alakbarov</p>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
